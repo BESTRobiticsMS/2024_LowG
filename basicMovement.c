@@ -1,6 +1,6 @@
 #pragma config(Motor,  port2,           rightMotor,    tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port3,           armUp,         tmotorVex393_MC29, openLoop)
-#pragma config(Motor,  port6,           leftMotor,     tmotorVex393_MC29, openLoop, reversed)
+#pragma config(Motor,  port6,           leftMotor,     tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port7,           armRotate,     tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port8,           claw1,         tmotorServoStandard, openLoop)
 #pragma config(Motor,  port9,           claw2,         tmotorServoStandard, openLoop)
@@ -46,7 +46,7 @@ bool checkRotation (int sensor) {
 }
 
 void toggle () {
-	
+
 	driveToggle = -driveToggle;
 
 };
